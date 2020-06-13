@@ -5,5 +5,6 @@
     all apps governed by this config. 
 */
 libraries{
+  merge = true // allow individual apps to contribute additional libraries
   common
 }
